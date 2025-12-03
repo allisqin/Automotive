@@ -1,0 +1,247 @@
+@import 'fonts', 'global', 'promo';
+
+.container {
+   width: 1011px;
+   margin: 0 auto;
+}
+
+.promo {
+   height: 689px;
+   background: url('../../images/bg/bg-promo.jpg') center center/cover no-repeat;
+
+   &__inner {
+      max-width: 520px;
+      padding: 0 5px;
+   }
+   &__title {
+      font-family: 'Montserrat-bold';
+      font-size: 90px;
+      
+      color: rgb(19, 14, 39);
+      font-weight: bold;
+      line-height: 0.889;
+      margin-bottom: 47px;
+
+      &--white {
+         color: #fff;
+      }
+   }
+
+   &__text {
+      font-size: 20px;
+      font-family: "PT Serif";
+      color:#fff;
+      line-height: 1.4;
+   }
+   
+}
+
+
+.header {
+   padding: 37px 0;
+   margin-bottom: 89px;
+
+   &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   &__logo {
+      font-family: 'Quite Chocolatey';
+      font-size: 89px;
+      color: #fff;
+      a {
+         height: auto;
+      }
+   }
+}
+
+.nav {
+   &__list {
+      display: flex;
+   }
+
+   &__link {
+      padding: 11px 15px;
+      border-radius: 5px;
+      font-family: 'Montserrat';
+      font-size: 18px;
+      line-height: 22px;
+      color: #fff;
+      text-transform: uppercase;
+      &:hover {
+         background-color: #130e27;
+      }
+   }
+}
+
+// services
+
+.services {
+   padding: 47px 0 67px 5px;
+
+   &__title {
+      font-size: 50px;
+      font-family: "Couture";
+      color: #130e27;
+      font-weight: bold;
+      line-height: 1.6;
+      text-align: left;
+      margin-bottom: 99px;
+      &--orange {
+         color: #c62314;
+         
+      }
+      
+   }
+
+   &__items {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .item {
+      width: 178px;
+      text-align: center;
+      &__img {
+         margin-bottom: 39px;
+      }
+
+      &__text {
+         font-size: 20px;
+         font-family: "PT Serif";
+         color: rgb(22, 22, 22);
+         line-height: 1.4;
+      }
+   }
+}
+
+// story {
+.story {
+  border-radius: 5px;
+  background-color: #130e27;
+  height: 123px;
+  padding: 31px 0 24px 0;
+  color: #fff;
+
+  &__inner {
+   display: flex;
+   justify-content: space-between;
+  }
+
+  &__text {
+   font-size: 20px;
+   font-family: "PT Serif";
+   color: #fff;
+   line-height: 1.4;
+   width: 617px;
+  }
+
+  &__btn {
+   padding: 13px 38px 13px 38px;
+   border-radius: 5px;
+   background-color: rgb(198, 35, 20);
+   color: #fff;
+   font-size: 22px;
+   font-family: "Montserrat";
+   line-height: 1.273;
+   text-align: center;
+  }
+}  
+
+//pricing
+.pricing {
+   padding: 32px 0;
+   background-color: #efefef;
+
+   &__title {
+      font-size: 50px;
+      font-family: "Montserrat-bold";
+      color: #130e27;
+      font-weight: bold;
+      line-height: 1.6;
+      text-align: center;
+      margin-bottom: 60px;
+   }
+
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__item {
+      border-radius: 5px;
+      background-color: #fff;
+      padding: 35px 0 12px 0;
+      text-align: center;
+      width: 318px;
+      &-title {
+         font-size: 22px;
+         font-family: "PT Serif";
+         color: rgb(22, 22, 22);
+         line-height: 1.273;
+         margin-bottom: 41px;
+      }
+      &-price {
+         font-size: 60px;
+         font-family: "Montserrat-bold";
+         color: rgb(198, 35, 20);
+         font-weight: bold;
+         line-height: 1.333;
+         text-transform: uppercase;
+      }
+      &-list {
+         margin-bottom: 36px;
+      }
+      &-item {
+         font-size: 20px;
+         font-family: "PT Serif";
+         color: rgb(22, 22, 22);
+         line-height: 1.4;
+      }
+      &-btn {
+         border-radius: 4px;
+         background-color: #130e27;
+         width: 205px;
+         height: 49px;
+         text-transform: uppercase;
+         font-size: 22px;
+         font-family: "Montserrat";
+         color: #fff;
+         line-height: 1.273;
+         border: none;
+         &--orange {
+            background-color: #c62314;
+         }
+      }
+}
+}
+
+//footer 
+.footer {
+   padding: 50px 0;
+   background-color: #130e27;
+   color: #fff;
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__copyright {
+      font-size: 20px;
+      font-family: "PT Serif";
+      color: #fff;
+      line-height: 1.1;
+      &--orange {
+         color: #c62314;
+      }
+   }
+   &__logo {
+      font-size: 60px;
+      font-family: 'Quite Chocolatey';
+      color: rgb(198, 35, 20);
+      line-height: 0.367;
+   }
+
+   }
