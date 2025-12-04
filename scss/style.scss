@@ -195,7 +195,7 @@
       &-price {
          font-size: 60px;
          font-family: "Montserrat-bold";
-         color: rgb(198, 35, 20);
+         color: #c62314;
          font-weight: bold;
          line-height: 1.333;
          text-transform: uppercase;
@@ -280,7 +280,6 @@
       }
       &__nav {
          display: flex;
-         flex-direction: column;
          position: fixed;
          top: 0;
          right: -100%;
@@ -289,12 +288,31 @@
          transition: right .3s;
          z-index: 1000; 
          &__link {
-            font-size: 14px;
+            font-size: 10px;
          }
       }
-      &__nav.active {
-         right: 0;
+      .nav__list {
+
+         position: fixed;
+         top: 0;
+         right: -100%;
+         width: 80%;
+         height: 100vh;
+         background: #c62314;;
+         transition: right 0.3s;
+         z-index: 1000;
+         flex-direction: column;
       }
+      .nav__list.active {
+         padding: 20px;
+         right: 0;
+         .nav__link {
+            display: block;
+            margin-bottom: 20px;
+         }
+      }
+   }
+   
    }
 
    .services {
@@ -321,15 +339,6 @@
    .story {
       height: auto;
       padding: 10px 5px;
-      // &__text {
-      //    max-width: 200px;
-      //    font-size: 10px;
-      // }
-      // &__btn {
-      //    padding: 0 10px;
-      //    max-height: 35px;
-      //    font-size: 10px;
-      // }
       &__inner {
          flex-direction: column;
       }
@@ -382,4 +391,4 @@
          margin-bottom: 32px;
       }
    }
-}
+
