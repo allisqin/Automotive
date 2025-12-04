@@ -347,30 +347,32 @@ button {
   .header__nav__link {
     font-size: 10px;
   }
-  .header .nav__list {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 80%;
-    height: 100vh;
-    background: #c62314;
-    -webkit-transition: right 0.3s;
-    transition: right 0.3s;
-    z-index: 1000;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .header .nav__list.active {
-    padding: 20px;
-    right: 0;
-  }
-  .header .nav__list.active .nav__link {
-    display: block;
-    margin-bottom: 20px;
-  }
 }
+.nav__list {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  height: 100vh;
+  background: #c62314;
+  -webkit-transition: right 0.3s;
+  transition: right 0.3s;
+  z-index: 1000;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav__list.active {
+  padding: 20px;
+  right: 0;
+}
+.nav__list.active .nav__link {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .services {
   padding: 10px 0 20px 0;
 }
