@@ -1,0 +1,78 @@
+.promo {
+   height: 689px;
+   background: url('../../images/bg/bg-promo.jpg') center center/cover no-repeat;
+
+   &__inner {
+      max-width: 520px;
+      padding: 0 5px;
+   }
+   &__title {
+      font-family: 'Montserrat-bold';
+      font-size: 90px;
+      
+      color: rgb(19, 14, 39);
+      font-weight: bold;
+      line-height: 0.889;
+      margin-bottom: 47px;
+
+      &--white {
+         color: #fff;
+      }
+   }
+
+   &__text {
+      font-size: 20px;
+      font-family: "PT Serif";
+      color:#fff;
+      line-height: 1.4;
+   }
+   
+}
+
+
+.header {
+   padding: 37px 0;
+   margin-bottom: 89px;
+
+   &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   &__logo {
+      font-family: 'Quite Chocolatey';
+      font-size: 89px;
+      color: #fff;
+      a {
+         height: auto;
+      }
+   }
+
+   &__hamburger {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 24px;
+      color: #130e27;
+   }
+}
+
+.nav {
+   &__list {
+      display: flex;
+   }
+
+   &__link {
+      padding: 11px 15px;
+      border-radius: 5px;
+      font-family: 'Montserrat';
+      font-size: 18px;
+      line-height: 22px;
+      color: #fff;
+      text-transform: uppercase;
+      &:hover {
+         background-color: #130e27;
+      }
+   }
+}

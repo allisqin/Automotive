@@ -1,0 +1,31 @@
+.story {
+  border-radius: 5px;
+  background-color: #130e27;
+  height: 123px;
+  padding: 31px 0 24px 0;
+  color: #fff;
+
+  &__inner {
+   display: flex;
+   justify-content: space-between;
+  }
+
+  &__text {
+   font-size: 20px;
+   font-family: "PT Serif";
+   color: #fff;
+   line-height: 1.4;
+   width: 617px;
+  }
+
+  &__btn {
+   padding: 13px 38px 13px 38px;
+   border-radius: 5px;
+   background-color: rgb(198, 35, 20);
+   color: #fff;
+   font-size: 22px;
+   font-family: "Montserrat";
+   line-height: 1.273;
+   text-align: center;
+  }
+}  

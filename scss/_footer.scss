@@ -1,0 +1,25 @@
+.footer {
+   padding: 50px 0;
+   background-color: #130e27;
+   color: #fff;
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__copyright {
+      font-size: 20px;
+      font-family: "PT Serif";
+      color: #fff;
+      line-height: 1.1;
+      &--orange {
+         color: #c62314;
+      }
+   }
+   &__logo {
+      font-size: 60px;
+      font-family: 'Quite Chocolatey';
+      color: rgb(198, 35, 20);
+      line-height: 0.367;
+   }
+
+}

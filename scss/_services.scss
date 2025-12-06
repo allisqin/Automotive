@@ -1,0 +1,39 @@
+.services {
+   padding: 47px 0 67px 5px;
+
+   &__title {
+      font-size: 50px;
+      font-family: "Couture";
+      color: #130e27;
+      font-weight: bold;
+      line-height: 1.6;
+      text-align: left;
+      margin-bottom: 99px;
+      &--orange {
+         color: #c62314;
+         
+      }
+      
+   }
+
+   &__items {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .item {
+      width: 178px;
+      text-align: center;
+      &__img {
+         margin-bottom: 39px;
+      }
+
+      &__text {
+         font-size: 20px;
+         font-family: "PT Serif";
+         color: rgb(22, 22, 22);
+         line-height: 1.4;
+      }
+   }
+}

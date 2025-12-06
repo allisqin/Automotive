@@ -1,3 +1,7 @@
+.container {
+   width: 1011px;
+   margin: 0 auto;
+}
 * {
    box-sizing: border-box;
 }
@@ -7,12 +11,16 @@ html, body, h1, h2, h3, ul, li, p {
    padding: 0;
 } 
 
+html, body {
+   overflow-y: hidden;
+}
+
 ul {
    list-style-type: none;
 }
 
 a {
-   color: inherit;
+   color: red;
    text-decoration: none;
 }
 
@@ -22,4 +30,6 @@ button {
    border: none;
    outline: none;
 }
+
+
 
